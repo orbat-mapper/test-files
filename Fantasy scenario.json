@@ -1,0 +1,247 @@
+{
+  "id": "WTG71SSjwo",
+  "type": "ORBAT-mapper",
+  "version": "0.19.0",
+  "meta": {
+    "createdDate": "2024-04-03T18:52:20.417Z",
+    "lastModifiedDate": "2024-04-04T13:22:14.667Z"
+  },
+  "name": "Fantasy scenario",
+  "startTime": "2024-03-03T12:00:00+01:00",
+  "timeZone": "Europe/Oslo",
+  "description": "",
+  "symbologyStandard": "app6",
+  "sides": [
+    {
+      "id": "mucJFjbBCZ",
+      "name": "Side 1",
+      "standardIdentity": "3",
+      "symbolOptions": {},
+      "groups": [
+        {
+          "id": "moUHApQN4u",
+          "name": "Units",
+          "subUnits": [
+            {
+              "id": "NQUaY7FroO",
+              "name": "HQ",
+              "sidc": "10031000181211000000",
+              "subUnits": [
+                {
+                  "id": "y6wd5DGc3v",
+                  "name": "1",
+                  "sidc": "10031000161211000000",
+                  "state": [
+                    {
+                      "id": "e4t6s6q1QQ",
+                      "t": "2024-03-03T12:00:00+01:00",
+                      "location": [
+                        20.2969567161202,
+                        61.26595859040097
+                      ]
+                    }
+                  ],
+                  "subUnits": []
+                },
+                {
+                  "id": "oitsGth5hU",
+                  "name": "2",
+                  "sidc": "10031000161211000000",
+                  "state": [
+                    {
+                      "id": "fm9o1R5bGA",
+                      "t": "2024-03-03T12:00:00+01:00",
+                      "location": [
+                        31.931695692973705,
+                        61.38077823218268
+                      ]
+                    }
+                  ],
+                  "subUnits": []
+                },
+                {
+                  "id": "fxTtatXRnW",
+                  "name": "3",
+                  "sidc": "10031000161211000000",
+                  "state": [
+                    {
+                      "id": "DTS4h2f1HU",
+                      "t": "2024-03-03T12:00:00+01:00",
+                      "location": [
+                        26.18909959128766,
+                        61.9063709353093
+                      ]
+                    }
+                  ],
+                  "subUnits": []
+                }
+              ],
+              "state": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6XZlyEc3Mh",
+      "name": "Side 2",
+      "standardIdentity": "6",
+      "symbolOptions": {},
+      "groups": [
+        {
+          "id": "FMpesiYpEP",
+          "name": "Units",
+          "subUnits": [
+            {
+              "id": "FxNCPlCww0",
+              "name": "HQ",
+              "sidc": "10061000181211000000",
+              "subUnits": [
+                {
+                  "id": "4uzVEq0Eby",
+                  "name": "1",
+                  "sidc": "10061000161211000000",
+                  "state": [
+                    {
+                      "id": "7zw8P5spHm",
+                      "t": "2024-03-03T12:00:00+01:00",
+                      "location": [
+                        24.364628954814485,
+                        58.05065614813853
+                      ]
+                    }
+                  ],
+                  "subUnits": []
+                },
+                {
+                  "id": "nBKtd0qwQg",
+                  "name": "2",
+                  "sidc": "10061000161211000000",
+                  "state": [
+                    {
+                      "id": "b6QNCGJqcI",
+                      "t": "2024-03-03T12:00:00+01:00",
+                      "location": [
+                        29.778222154841444,
+                        58.56914507278381
+                      ]
+                    }
+                  ],
+                  "subUnits": []
+                },
+                {
+                  "id": "AaezQKyFy2",
+                  "name": "3",
+                  "sidc": "10061000161211000000",
+                  "state": [
+                    {
+                      "id": "HIyyLkd8Yj",
+                      "t": "2024-03-03T12:00:00+01:00",
+                      "location": [
+                        36.298461478630806,
+                        58.86423267894679
+                      ]
+                    }
+                  ],
+                  "subUnits": []
+                }
+              ],
+              "state": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "name": "Features",
+      "id": "gJMfr9RzDT",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                16.07973770394451,
+                58.145492699143404
+              ],
+              [
+                17.93411769511396,
+                58.177048870132865
+              ],
+              [
+                19.788497686283417,
+                58.475439108882256
+              ],
+              [
+                23.22807347635579,
+                59.7044199078334
+              ],
+              [
+                27.445292488531482,
+                59.92997752877625
+              ],
+              [
+                34.773084389120456,
+                59.65912498538529
+              ],
+              [
+                40.39604307202138,
+                58.61590424207924
+              ]
+            ]
+          },
+          "properties": {
+            "type": "LineString",
+            "name": "LineString 2"
+          },
+          "id": "G9ocbD5y8k"
+        }
+      ]
+    }
+  ],
+  "events": [],
+  "mapLayers": [
+    {
+      "opacity": 1,
+      "id": "EWbniJoK9P",
+      "type": "ImageLayer",
+      "name": "Fantasy map layer",
+      "url": "https://orbat-mapper.github.io/test-files/Beresia%202024-04-03-21-21.svg",
+      "attributions": "https://azgaar.github.io/Fantasy-Map-Generator/",
+      "imageCenter": [
+        29.999999999999996,
+        60.00000000000003
+      ],
+      "imageRotate": 0,
+      "imageScale": [
+        1834.4886788442302,
+        1834.4886788442302
+      ],
+      "extent": [
+        991439.2148775924,
+        7181637.407065798,
+        5687730.232718822,
+        9617838.372570936
+      ]
+    }
+  ],
+  "equipment": [],
+  "personnel": [],
+  "settings": {
+    "rangeRingGroups": [
+      {
+        "name": "GR1"
+      },
+      {
+        "name": "GR2"
+      }
+    ],
+    "statuses": [],
+    "map": {
+      "baseMapId": "osm"
+    }
+  }
+}
